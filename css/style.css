@@ -303,15 +303,3 @@ html {
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 510px) {
-    .layout {
-        flex-direction: column;
-    }
-    .header.container {
-        width: 100%;
-    }
-    .hero {
-        width: 100%;
-        flex-direction: column;
-    }
-}
