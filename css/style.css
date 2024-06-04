@@ -42,6 +42,12 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-image: url(../image/back.png);
+    background-repeat: no-repeat;
+    background-size: 1950px;
+}
+
 .container {
     max-width: 1180px;
     margin: 0 auto;
@@ -52,7 +58,7 @@ html {
     justify-content: space-between;
     align-items: center;
     padding-top: 25px;
-    padding-bottom: 20 px; 
+    padding-bottom: 20 px;
 }
 
 .nav-link {
@@ -231,7 +237,7 @@ html {
 }
 
 .history-text {
-    color: rgb(255, 255, 255);
+    color: white;
     font-family: Museo Sans Cyrl;
     font-size: 22px;
     font-weight: 300;
@@ -241,18 +247,17 @@ html {
 }
 
 .photo {
-    align-items: center;
-    margin-left: 50px;
-    background-color: rgb(84, 84, 118);
+    text-align: center;
+
 }
 
 .photo1 {
-    margin-right: 60px;
-    margin-top: 30px;
+    padding-right: 60px;
+    padding-top: 30px;
 }
 
 .photo3 {
-    margin-right: 60px;
+    padding-right: 60px;
 }
 
 .photo1 {
@@ -303,3 +308,40 @@ html {
     transform: scale(1.1);
 }
 
+
+@media screen and (max-width: 510px) {
+    .layout {
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .header {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-left {
+        max-width: 400px;
+    }
+
+    .hero-btn {
+        padding: 20px 120px;
+    }
+
+    .history-text {
+        color: black;
+        text-align: center;
+    }
+
+    body {
+        background-image: url(../image/back.png);
+        background-repeat: no-repeat;
+        background-size: 2350px;
+    }
+}
