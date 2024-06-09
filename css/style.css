@@ -345,3 +345,76 @@ body {
         background-size: 2350px;
     }
 }
+@media screen and (max-width: 510px) {
+    .layout {
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .header {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-left {
+        max-width: 400px;
+    }
+
+    .hero-btn {
+        padding: 20px 120px;
+    }
+
+    .history-text {
+        color: black;
+        text-align: center;
+    }
+
+    body {
+        background-image: url(../image/back.png);
+        background-repeat: no-repeat;
+        background-size: 2350px;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .layout {
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .header {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero-left {
+        max-width: 400px;
+    }
+
+    .hero-btn {
+        padding: 20px 120px;
+    }
+
+    .history-text {
+        color: white;
+        text-align: center;
+    }
+
+    .photo {
+        margin-top: 250px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    body {
+        background-image: url(../image/back.png);
+        background-repeat: no-repeat;
+        background-size: 2400px;
+    }
+}
